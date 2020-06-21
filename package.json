@@ -1,6 +1,6 @@
 {
   "name": "orange-mdp",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.1",
   "description": "Orange Markdown Preview",
   "main": "./dist/main/index.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "lint": "eslint --ext .js,ts,.vue --ignore-path .gitignore .",
     "lint:fix": "eslint --fix --ext .js,,ts.vue --ignore-path .gitignore .",
     "preinstall": "node .electron-nuxt/check-engines.js",
-    "postinstall": "electron-builder install-app-deps & yarn run lint:fix"
+    "postinstall": "electron-builder install-app-deps & yarn run lint:fix",
+    "pull": "git pull",
+    "push": "git push",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
   "husky": {
     "hooks": {
@@ -41,6 +44,7 @@
   "dependencies": {
     "@flowjs/flow.js": "^2.14.1",
     "crypto-js": "^4.0.0",
+    "electron-squirrel-startup": "^1.0.0",
     "lodash": "^4.17.15",
     "markdown-it": "^11.0.0",
     "markdown-it-code-copy": "^0.1.0",
@@ -60,6 +64,7 @@
     "@nuxtjs/eslint-config-typescript": "^2.0.0",
     "@nuxtjs/vuetify": "1.11.2",
     "@types/crypto-js": "^3.1.47",
+    "@types/electron": "^1.6.10",
     "@types/katex": "^0.11.0",
     "@types/lodash": "^4.14.155",
     "@types/markdown-it": "^10.0.1",
@@ -83,6 +88,8 @@
     "electron-builder": "22.7.0",
     "electron-builder-squirrel-windows": "^22.7.0",
     "electron-debug": "3.0.1",
+    "electron-log": "^4.2.2",
+    "electron-updater": "^4.3.1",
     "emoji-mart-vue": "^2.6.6",
     "emoji-mart-vue-fast": "^7.0.2",
     "eslint": "6",

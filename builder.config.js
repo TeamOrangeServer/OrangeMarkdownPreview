@@ -50,6 +50,9 @@ module.exports = {
   directories: {
     output: 'build'
   },
+  publish: {
+    provider: 'github'
+  },
   // default files: https://www.electron.build/configuration/contents
   files: [
     'package.json',

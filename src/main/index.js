@@ -2,6 +2,8 @@
 /* globals INCLUDE_RESOURCES_PATH */
 import { app } from 'electron'
 
+import './auto-update'
+
 /**
  * Set `__resources` path to resources files in renderer process
  */
@@ -17,6 +19,8 @@ app.on('window-all-closed', function () {
   // to stay active until the user quits explicitly with Cmd + Q
   if (process.platform !== 'darwin') app.quit()
 })
+
+// if (require('electron-squirrel-startup')) return app.quit()
 
 // Load here all startup windows
 require('./mainWindow')
