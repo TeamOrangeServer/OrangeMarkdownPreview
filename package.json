@@ -28,7 +28,10 @@
   "keywords": [],
   "author": "sousuke0422 <sousuke20xx@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/michalzaq12/electron-nuxt/blob/master/README.md",
+  "homepage": "https://github.com/TeamOrangeServer/OrangeMarkdownPreview/blob/master/README.md",
+  "repository": {
+    "url": "git+https://github.com/TeamOrangeServer/OrangeMarkdownPreview.git"
+  },
   "engines": {
     "node": ">=12.13.0"
   },
