@@ -2,4 +2,6 @@
 dist
 build/*
 !build/icons
+!build/*.ico
+!build/*.gif
 node_modules

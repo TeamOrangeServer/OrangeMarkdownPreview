@@ -4,7 +4,7 @@ const windowsOS = {
   win: {
     icon: ICONS_DIR + 'win-icon.ico',
     publisherName: 'michal',
-    target: ['nsis', 'zip']
+    target: ['nsis', 'squirrel', 'tar.xz']
   },
 
   nsis: {
@@ -15,7 +15,7 @@ const windowsOS = {
 const linuxOS = {
   linux: {
     icon: ICONS_DIR,
-    target: 'deb'
+    target: ['deb', 'rpm', 'pacman', 'tar.xz']
   }
 }
 
