@@ -1,0 +1,28 @@
+{
+    "plugins": [
+        "vue"
+        //"node"
+    ],
+    "extends": [
+        "eslint:recommended",
+        //"plugin:node/recommended",
+        "plugin:vue/recommended",
+        "@nuxtjs/eslint-config-typescript",
+        "plugin:prettier/recommended"
+    ],
+    "rules": {
+        // "node/no-unsupported-features": ["error", {"version": 12}]
+        "semi": [2, "never"],
+        "vue/max-attributes-per-line": "off",
+        "prettier/prettier": ["error", { "semi": false }]
+    },
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "root": true,
+    "parserOptions": {
+        "sourceType": "module"
+    }
+}

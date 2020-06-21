@@ -1,0 +1,47 @@
+/*/ Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;*/
+/* GoogleFont読み込み */
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+.font1 {
+  font-family: 'Abel', sans-serif;
+}
+
+.font2 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.sp_bottom {
+  padding-bottom: 4em;
+}
+
+.sp_s_bottom {
+  padding-bottom: 1em;
+}
+
+.setting_title {
+  border-left: solid 8px #9be0f5;
+  font-size: 2.5em;
+  max-width: 250px;
+  border-radius: 0 0.4em 0.4em 0em;
+}
+.system_performance {
+  border-left: solid 3px #7986cb;
+  border-right: solid 3px #7986cb;
+  margin: 0px 0.9em 0px 0.9em;
+  font-size: 1em;
+}
+.system_performance:before {
+  content: 'SYSTEM PERFORMANCE';
+  border-left: solid 3px #64b5f6;
+  border-right: solid 3px #64b5f6;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  font-size: 1em;
+}
+
+.card_bottom {
+  padding-bottom: 10px;
+}

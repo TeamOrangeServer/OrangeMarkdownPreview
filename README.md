@@ -14,6 +14,11 @@ Orange Launcher(未完成)から派生したMarkdown Previewソフトです。
 
 外部リンク(href)を押すと高確率で変な挙動します。
 
+## Author
+
+- @sousuke0422
+- @yupix
+
 ---
 
 ## Build Setup
