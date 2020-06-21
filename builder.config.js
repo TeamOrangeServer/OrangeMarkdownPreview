@@ -42,11 +42,11 @@ const macOS = {
 }
 
 module.exports = {
-  asar: true,
+  asar: false,
   productName: 'Orange Markdown Preview',
   appId: 'xyz.akirin.mdp',
   // eslint-disable-next-line no-template-curly-in-string
-  artifactName: 'orange-mp-${version}.${ext}',
+  artifactName: 'orange-mdp-${version}.${ext}',
   directories: {
     output: 'build'
   },
