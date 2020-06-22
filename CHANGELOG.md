@@ -1,3 +1,22 @@
+# [1.0.0-beta.4](https://github.com/TeamOrangeServer/OrangeMarkdownPreview/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-06-22)
+
+
+### Bug Fixes
+
+* conventional-changelog ([2bc4461](https://github.com/TeamOrangeServer/OrangeMarkdownPreview/commit/2bc44617fe3e9c69a0410ae07c026a6e70184e92))
+
+
+### Features
+
+* remove target ([b868d07](https://github.com/TeamOrangeServer/OrangeMarkdownPreview/commit/b868d07c6e456b3954be51a0bfab9208cd91d493))
+
+
+### BREAKING CHANGES
+
+* remove squirrel
+
+
+
 # 1.0.0-beta.3 (2020-06-21)
 
 
