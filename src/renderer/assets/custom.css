@@ -26,19 +26,19 @@
   border-left: solid 8px #9be0f5;
   font-size: 2.5em;
   max-width: 250px;
-  border-radius: 0 0.4em 0.4em 0em;
+  border-radius: 0 0.4em 0.4em 0;
 }
 .system_performance {
   border-left: solid 3px #7986cb;
   border-right: solid 3px #7986cb;
-  margin: 0px 0.9em 0px 0.9em;
+  margin: 0 0.9em;
   font-size: 1em;
 }
 .system_performance:before {
   content: 'SYSTEM PERFORMANCE';
   border-left: solid 3px #64b5f6;
   border-right: solid 3px #64b5f6;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 0.5em;
   font-size: 1em;
 }
 
